@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E15285F24C88A47009EA377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15285E24C88A47009EA377 /* AppDelegate.m */; };
+		8E15286224C88A47009EA377 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15286124C88A47009EA377 /* SceneDelegate.m */; };
+		8E15286524C88A47009EA377 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15286424C88A47009EA377 /* ViewController.m */; };
+		8E15286824C88A47009EA377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E15286624C88A47009EA377 /* Main.storyboard */; };
+		8E15286A24C88A4B009EA377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E15286924C88A4B009EA377 /* Assets.xcassets */; };
+		8E15286D24C88A4B009EA377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E15286B24C88A4B009EA377 /* LaunchScreen.storyboard */; };
+		8E15287024C88A4B009EA377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15286F24C88A4B009EA377 /* main.m */; };
+		8E15287A24C88A4B009EA377 /* AstronomyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15287924C88A4B009EA377 /* AstronomyTests.m */; };
+		8E15288524C88A4B009EA377 /* AstronomyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15288424C88A4B009EA377 /* AstronomyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E15287624C88A4B009EA377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E15285224C88A47009EA377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E15285924C88A47009EA377;
+			remoteInfo = Astronomy;
+		};
+		8E15288124C88A4B009EA377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E15285224C88A47009EA377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E15285924C88A47009EA377;
+			remoteInfo = Astronomy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E15285A24C88A47009EA377 /* Astronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E15285D24C88A47009EA377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E15285E24C88A47009EA377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E15286024C88A47009EA377 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8E15286124C88A47009EA377 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8E15286324C88A47009EA377 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E15286424C88A47009EA377 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E15286724C88A47009EA377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E15286924C88A4B009EA377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E15286C24C88A4B009EA377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E15286E24C88A4B009EA377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E15286F24C88A4B009EA377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E15287524C88A4B009EA377 /* AstronomyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E15287924C88A4B009EA377 /* AstronomyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstronomyTests.m; sourceTree = "<group>"; };
+		8E15287B24C88A4B009EA377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E15288024C88A4B009EA377 /* AstronomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E15288424C88A4B009EA377 /* AstronomyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstronomyUITests.m; sourceTree = "<group>"; };
+		8E15288624C88A4B009EA377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E15285724C88A47009EA377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E15287224C88A4B009EA377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E15287D24C88A4B009EA377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E15285124C88A47009EA377 = {
+			isa = PBXGroup;
+			children = (
+				8E15285C24C88A47009EA377 /* Astronomy */,
+				8E15287824C88A4B009EA377 /* AstronomyTests */,
+				8E15288324C88A4B009EA377 /* AstronomyUITests */,
+				8E15285B24C88A47009EA377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E15285B24C88A47009EA377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E15285A24C88A47009EA377 /* Astronomy.app */,
+				8E15287524C88A4B009EA377 /* AstronomyTests.xctest */,
+				8E15288024C88A4B009EA377 /* AstronomyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E15285C24C88A47009EA377 /* Astronomy */ = {
+			isa = PBXGroup;
+			children = (
+				8E15285D24C88A47009EA377 /* AppDelegate.h */,
+				8E15285E24C88A47009EA377 /* AppDelegate.m */,
+				8E15286024C88A47009EA377 /* SceneDelegate.h */,
+				8E15286124C88A47009EA377 /* SceneDelegate.m */,
+				8E15286324C88A47009EA377 /* ViewController.h */,
+				8E15286424C88A47009EA377 /* ViewController.m */,
+				8E15286624C88A47009EA377 /* Main.storyboard */,
+				8E15286924C88A4B009EA377 /* Assets.xcassets */,
+				8E15286B24C88A4B009EA377 /* LaunchScreen.storyboard */,
+				8E15286E24C88A4B009EA377 /* Info.plist */,
+				8E15286F24C88A4B009EA377 /* main.m */,
+			);
+			path = Astronomy;
+			sourceTree = "<group>";
+		};
+		8E15287824C88A4B009EA377 /* AstronomyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E15287924C88A4B009EA377 /* AstronomyTests.m */,
+				8E15287B24C88A4B009EA377 /* Info.plist */,
+			);
+			path = AstronomyTests;
+			sourceTree = "<group>";
+		};
+		8E15288324C88A4B009EA377 /* AstronomyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E15288424C88A4B009EA377 /* AstronomyUITests.m */,
+				8E15288624C88A4B009EA377 /* Info.plist */,
+			);
+			path = AstronomyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E15285924C88A47009EA377 /* Astronomy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E15288924C88A4B009EA377 /* Build configuration list for PBXNativeTarget "Astronomy" */;
+			buildPhases = (
+				8E15285624C88A47009EA377 /* Sources */,
+				8E15285724C88A47009EA377 /* Frameworks */,
+				8E15285824C88A47009EA377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astronomy;
+			productName = Astronomy;
+			productReference = 8E15285A24C88A47009EA377 /* Astronomy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E15287424C88A4B009EA377 /* AstronomyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E15288C24C88A4B009EA377 /* Build configuration list for PBXNativeTarget "AstronomyTests" */;
+			buildPhases = (
+				8E15287124C88A4B009EA377 /* Sources */,
+				8E15287224C88A4B009EA377 /* Frameworks */,
+				8E15287324C88A4B009EA377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E15287724C88A4B009EA377 /* PBXTargetDependency */,
+			);
+			name = AstronomyTests;
+			productName = AstronomyTests;
+			productReference = 8E15287524C88A4B009EA377 /* AstronomyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E15287F24C88A4B009EA377 /* AstronomyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E15288F24C88A4B009EA377 /* Build configuration list for PBXNativeTarget "AstronomyUITests" */;
+			buildPhases = (
+				8E15287C24C88A4B009EA377 /* Sources */,
+				8E15287D24C88A4B009EA377 /* Frameworks */,
+				8E15287E24C88A4B009EA377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E15288224C88A4B009EA377 /* PBXTargetDependency */,
+			);
+			name = AstronomyUITests;
+			productName = AstronomyUITests;
+			productReference = 8E15288024C88A4B009EA377 /* AstronomyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E15285224C88A47009EA377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Joe Veverka";
+				TargetAttributes = {
+					8E15285924C88A47009EA377 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8E15287424C88A4B009EA377 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8E15285924C88A47009EA377;
+					};
+					8E15287F24C88A4B009EA377 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8E15285924C88A47009EA377;
+					};
+				};
+			};
+			buildConfigurationList = 8E15285524C88A47009EA377 /* Build configuration list for PBXProject "Astronomy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E15285124C88A47009EA377;
+			productRefGroup = 8E15285B24C88A47009EA377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E15285924C88A47009EA377 /* Astronomy */,
+				8E15287424C88A4B009EA377 /* AstronomyTests */,
+				8E15287F24C88A4B009EA377 /* AstronomyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E15285824C88A47009EA377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E15286D24C88A4B009EA377 /* LaunchScreen.storyboard in Resources */,
+				8E15286A24C88A4B009EA377 /* Assets.xcassets in Resources */,
+				8E15286824C88A47009EA377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E15287324C88A4B009EA377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E15287E24C88A4B009EA377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E15285624C88A47009EA377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E15286524C88A47009EA377 /* ViewController.m in Sources */,
+				8E15285F24C88A47009EA377 /* AppDelegate.m in Sources */,
+				8E15287024C88A4B009EA377 /* main.m in Sources */,
+				8E15286224C88A47009EA377 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E15287124C88A4B009EA377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E15287A24C88A4B009EA377 /* AstronomyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E15287C24C88A4B009EA377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E15288524C88A4B009EA377 /* AstronomyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E15287724C88A4B009EA377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E15285924C88A47009EA377 /* Astronomy */;
+			targetProxy = 8E15287624C88A4B009EA377 /* PBXContainerItemProxy */;
+		};
+		8E15288224C88A4B009EA377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E15285924C88A47009EA377 /* Astronomy */;
+			targetProxy = 8E15288124C88A4B009EA377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E15286624C88A47009EA377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E15286724C88A47009EA377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E15286B24C88A4B009EA377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E15286C24C88A4B009EA377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E15288724C88A4B009EA377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E15288824C88A4B009EA377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E15288A24C88A4B009EA377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLCFP6QUVG;
+				INFOPLIST_FILE = Astronomy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeerka.Astronomy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E15288B24C88A4B009EA377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLCFP6QUVG;
+				INFOPLIST_FILE = Astronomy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeerka.Astronomy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E15288D24C88A4B009EA377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLCFP6QUVG;
+				INFOPLIST_FILE = AstronomyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeerka.AstronomyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astronomy.app/Astronomy";
+			};
+			name = Debug;
+		};
+		8E15288E24C88A4B009EA377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLCFP6QUVG;
+				INFOPLIST_FILE = AstronomyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeerka.AstronomyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astronomy.app/Astronomy";
+			};
+			name = Release;
+		};
+		8E15289024C88A4B009EA377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLCFP6QUVG;
+				INFOPLIST_FILE = AstronomyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeerka.AstronomyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astronomy;
+			};
+			name = Debug;
+		};
+		8E15289124C88A4B009EA377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLCFP6QUVG;
+				INFOPLIST_FILE = AstronomyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeVeerka.AstronomyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astronomy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E15285524C88A47009EA377 /* Build configuration list for PBXProject "Astronomy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E15288724C88A4B009EA377 /* Debug */,
+				8E15288824C88A4B009EA377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E15288924C88A4B009EA377 /* Build configuration list for PBXNativeTarget "Astronomy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E15288A24C88A4B009EA377 /* Debug */,
+				8E15288B24C88A4B009EA377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E15288C24C88A4B009EA377 /* Build configuration list for PBXNativeTarget "AstronomyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E15288D24C88A4B009EA377 /* Debug */,
+				8E15288E24C88A4B009EA377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E15288F24C88A4B009EA377 /* Build configuration list for PBXNativeTarget "AstronomyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E15289024C88A4B009EA377 /* Debug */,
+				8E15289124C88A4B009EA377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E15285224C88A47009EA377 /* Project object */;
+}
